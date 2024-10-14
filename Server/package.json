@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Sijon Chisty Saon",
+  "license": "ISC",
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "ml-knn": "^3.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "natural": "^8.0.1",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "spelling-corrector": "^3.0.0",
+    "spotify-web-api-node": "^5.0.2",
+    "stopword": "^3.1.1",
+    "tesseract.js": "^5.1.1"
+  }
+}
